@@ -16,4 +16,3 @@ SPRINT 3
 - [ ] Integrate Plotly graphs into Flask templates.
 - [ ] Test each functionality individually and together.
 - [ ] Validate user input to prevent errors.
-- [ ] 
