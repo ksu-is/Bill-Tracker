@@ -1,5 +1,5 @@
 SPRINT 1
-- [ x ] Create ReadMe
+- [x] Create ReadMe
 - [ ] Install Flask, Plotly, and other necessary libraries
 - [ ] Create basic project structure
 - [ ] Define the core functionalities
