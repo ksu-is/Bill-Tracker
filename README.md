@@ -1,2 +1,2 @@
 # Bill-Tracker
-A way to track your monthly bills.
+A way to track your monthly bills and see how much is left in each account. This program will not ask for any login ingormation. You will input the total amount owed, what the interest rate is, and how much a monthly payment is. The program will then keep a running total of how much is left owed on the bill. It will also have a seperate space for categories like food, travel, clothing, entertainment.
