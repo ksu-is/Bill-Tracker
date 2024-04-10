@@ -1,9 +1,9 @@
 SPRINT 1
 - [x] Create ReadMe
-- [ ] Install Flask, Plotly, and other necessary libraries
-- [ ] Create basic project structure
-- [ ] Define the core functionalities
-- [ ] Decide how to store bill information
+- [x] Install Flask, Plotly, and other necessary libraries
+- [x] Create basic project structure
+- [x] Define the core functionalities
+- [x] Decide how to store bill information
 
 SPRINT 2
 - [ ] Create routes in Flask for different functionalities
