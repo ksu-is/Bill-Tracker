@@ -2,41 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bill Tracking Application</title>
-    <!-- Link to your CSS file if you have one -->
-    <link rel="stylesheet" href="static/css/styles.css">
+    <title>Your Page Title</title>
+    <!-- Additional meta tags, CSS links, or scripts -->
 </head>
 <body>
-    <header>
-        <h1>Bill Tracking Application</h1>
-    </header>
+    <!-- Your HTML content -->
+</body>
+</html>
 
-    <section id="overview">
-        <h2>Overview</h2>
-        <div id="bills-summary">
-            <h3>Bills Summary</h3>
-            <ul>
-                <li>Electricity Bill - $100.00 (Due: January 15, 2024)</li>
-                <li>Internet Bill - $50.00 (Due: January 20, 2024)</li>
-                <!-- Add more bill summaries as needed -->
-            </ul>
-        </div>
-        <div id="accounts-summary">
-            <h3>Accounts Summary</h3>
-            <ul>
-                <li>Checking Account Balance: $1000.00</li>
-                <li>Savings Account Balance: $5000.00</li>
-                <!-- Add more account summaries as needed -->
-            </ul>
-        </div>
-    </section>
-
-    <footer>
-        <!-- Add navigation links or other footer content as needed -->
-    </footer>
-    
-    <!-- Include script.js at the bottom of the body -->
-    <script src="static/js/script.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bill Tracker</title>
+</head>
+<body>
+    <h1>Bill Tracker</h1>
+    <form method="post">
+        Bill Name: <input type="text" name="name"><br>
+        Amount Due: <input type="text" name="amount"><br>
+        Payment Date: <input type="date" name="date"><br>
+        Payment Amount: <input type="text" name="payment"><br>
+        <input type="submit" value="Add Bill">
+    </form>
+    <hr>
+    <h2>Current Bills</h2>
+    <ul>
+        {% for bill in bills %}
+        <li>{{ bill.name }} - Amount Due: {{ bill.amount }}, Payment Date: {{ bill.date }}, Payment Amount: {{ bill.payment }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
